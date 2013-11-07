@@ -1,0 +1,198 @@
+
+##########################
+# Template language file #
+##########################
+
+### Special strings ###
+
+### kitchen_cabinet.lua ###
+Kitchen Cabinet = Armário de cozinha
+## 1: Player name, 2: position
+%s moves stuff in kitchen cabinet at %s = %s moveu itens no armário de cozinha em %s
+%s moves stuff to kitchen cabinet at %s = %s moveu itens para o armário de cozinha em %s
+%s takes stuff from kitchen cabinet at %s =  %s retirou itens do armário de cozinha em %s
+Half-height Kitchen Cabinet (on ceiling) = Meio armário de cozinha (no teto)
+Under-sink cabinet = Armário sob a pia
+Kitchen Cabinet with sink = Armário de cozinha com pia
+
+### door_models.lua ###
+Mahogany Closet Door =
+Oak Closet Door =
+Fancy Wood/Glass Door =
+Glass Office Door = Porta de escritório de vidro
+Glass and Wood, Mahogany-colored =
+Glass and Wood, Oak-colored =
+Glass and Wood, White =
+Plain Wooden Door = Porta de madeira simples
+left = esquerda
+right = direita
+## 1: Side the doors opens to
+(Top Half, %s-opening) = (Metade superior, abre para %s)
+(%s-opening) = (abre para %s)
+
+
+### door_nodes.lua ###
+Not enough vertical space to place a door! = Não existe espaço vertical suficiente para colocar uma porta.
+
+### crafts.lua ###
+Brass Ingot =
+Bucket of white paint = Balde de tinta branca
+Legs for Small Utility table = Pernas para mesa pequena
+Plastic sheet = Folha de plástico
+Silicon lump =
+Simple Integrated Circuit = Circuito integrado simples
+Small Wooden Drawer = 
+Terracotta Roof Tile =
+Titanium Dioxide = Dióxido de titânio
+Uncooked Terracotta Base =
+Unprocessed Plastic base = Base de plástico não processada
+
+### door_models.lua ###
+
+### door_nodes.lua ###
+
+### fences.lua ###
+Barbed Wire Fence = Cerca de arame farpado
+Barbed Wire Fence Gate = Portão da cerca de arame farpado
+Brass Fence/railing =
+Brass Fence/railing with sign =
+Chainlink Fence =
+Chainlink Fence Gate =
+Chainlink Fence Gate (open) =
+Unpainted Picket Fence =
+Unpainted Picket Fence Gate =
+White Picket Fence =
+White Picket Fence Gate =
+Wooden Privacy Fence =
+Wrought Iron Fence/railing =
+Wrought Iron Fence/railing with sign =
+want to simply place the wielded item like usual. =
+
+### furniture_medieval.lua ###
+Bars = Barras
+Binding Bars =
+Chains = Correntes
+Wall Torch = Tocha de parede
+
+### furniture_bathroom.lua ###
+Toilet = Vaso sanitário
+Sink = Pia
+Taps = Torneira
+Shower Tray = Ralo do chuveiro
+Shower Head = Chuveiro
+
+### init.lua ###
+Loaded! = Carregado!
+Asphalt Shingles =
+Black Plastic Flower Pot = Vaso de flor de plástico preto
+Brass Pole =
+Brass Table Legs =
+red = vermelho
+green = verde
+blue = azul
+white = branco
+pink = rosa
+violet = violeta
+## 1: Color name
+Curtains (%s) = Cortinas (%s)
+Drop-Ceiling Tile =
+Glass Skylight =
+Glass Table (Small, Round) = Mesa de vidro (pequena, redonda)
+Glass Table (Small, Square) = Mesa de vidro (pequena, quadrada)
+Green Plastic Flower Pot = Vaso de flor de plástico verde
+Large Area Rug =
+Large Glass Table Piece = Pedaço da mesa grande de vidro
+Large Stereo Speaker = Auto-falante grande
+Legs for Utility Table = Pernas para mesa
+Projection Screen Material = Material de tela de projeção
+Small Surround Speaker =
+Small Throw Rug =
+Stereo Receiver = Aparelho de som
+Terracotta Flower Pot =
+Terracotta Roofing =
+Textured Ceiling Paint = Pintura texturizada do teto
+Utility Table = Mesa
+Utility table mk2 =
+Wooden Shutter (Black) =
+Wooden Shutter (Dark Grey) =
+Wooden Shutter (Forest Green) =
+Wooden Shutter (Grey) =
+Wooden Shutter (Light Blue) =
+Wooden Shutter (Purple) =
+Wooden Shutter (Red) =
+Wooden Shutter (Unpainted Mahogany) =
+Wooden Shutter (Unpainted Oak) =
+Wooden Shutter (White) =
+Wooden Shutter (Yellow) =
+Wooden Tabletop piece =
+Wooden Tabletop (Small, Round) =
+Wooden Tabletop (Small, Square) =
+Wood Shingles =
+Wrought Iron Pole =
+someone =
+## 1: Player name
+Sorry, %s owns that spot. = Desculpe, mas esse local pertence a %s.
+
+### lighting.lua ###
+White Glowlight (small cube) = 
+White Glowlight (small cube, on ceiling) =
+White Glowlight (thick) =
+White Glowlight (thick, on wall) =
+White Glowlight (thin) =
+White Glowlight (thin, on wall) =
+Yellow Glowlight (small cube) =
+Yellow Glowlight (small cube, on ceiling) =
+Yellow Glowlight (thick) =
+Yellow Glowlight (thick, on wall) =
+Yellow Glowlight (thin) =
+Yellow Glowlight (thin, on wall) =
+
+### locked.lua ###
+## 1: Item description, 2: Owner name
+%s (owned by %s) =
+## 1: Player name, 2: Item description, 3: Owner name, 4: Position
+%s tried to access a %s belonging to %s at %s =
+## 1: Item description
+%s (Locked) =
+Locked Cabinet =
+Locked Nightstand =
+
+### nightstands.lua ###
+Mahogany Nightstand with One Drawer =
+Mahogany Nightstand with Two Drawers =
+Oak Nightstand with One Drawer =
+Oak Nightstand with Two Drawers =
+## 1: Player name, 2: position
+%s moves stuff in nightstand at %s =
+%s moves stuff to nightstand at %s =
+%s takes stuff from nightstand at %s =
+One-drawer Nightstand =
+Two-drawer Nightstand =
+
+### oven.lua ###
+Oven = Forno
+## 1: Item name
+Could not insert '%s' = Não foi possível inserir '%s'
+## 1: Percentage
+Oven active: %d%% = Atividade do forno: %d%%
+Oven out of fuel = O forno está sem combustível
+Oven is empty = O forno está vazio
+
+### refrigerator.lua ###
+Refrigerator = Geladeira
+## 1: Player name, 2: position
+%s moves stuff in refrigerator at %s =
+%s moves stuff to refrigerator at %s =
+%s takes stuff from refrigerator at %s =
+Not enough vertical space to place a refrigerator! = Não existe espaço vertical suficiente para adicionar a geladeira.
+
+### television.lua ###
+Small CRT Television = TV de tubo pequena
+
+### signs_lib.lua ###
+%s wrote "%s" to sign at %s =
+Reading cached character database. =
+Font seems to have changed. Rebuilding cache. =
+Could not find font line height in cached DB. Trying brute force. =
+Registered %s and %s =
+signs loaded =
