@@ -59,8 +59,10 @@ function homedecor.table_copy(t)
     return nt
 end
 
+
+-- load various other components
+
 dofile(homedecor.modpath.."/ownership.lua")
-dofile(homedecor.modpath.."/lib_6d.lua")
 
 dofile(homedecor.modpath.."/misc_nodes.lua")					-- the catch-all for all misc nodes
 dofile(homedecor.modpath.."/tables.lua")

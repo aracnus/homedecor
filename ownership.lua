@@ -1,7 +1,7 @@
 
 local S = homedecor.gettext
 
-function homedecor:node_is_owned(pos, placer)
+function homedecor.node_is_owned(pos, placer)
 	local ownername = false
 	if type(IsPlayerNodeOwner) == "function" then					-- node_ownership mod
 		if HasOwner(pos, placer) then						-- returns true if the node is owned
@@ -33,3 +33,16 @@ function homedecor:node_is_owned(pos, placer)
 		return false
 	end
 end
+
+-- protection wrapper for 6d stuff
+
+function homedecor.protect_and_rotate(itemstack, placer, pointed_thing)
+	if not homedecor.node_is_owned(pointed_thing.under, placer) 
+	   and not homedecor.node_is_owned(pointed_thing.above, placer) then
+		local keys=placer:get_player_control()
+		minetest.rotate_and_place(itemstack, placer, pointed_thing,
+			homedecor.expect_infinite_stacks, {invert_wall = keys.sneak})
+	end
+	return itemstack
+end
+
