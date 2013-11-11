@@ -1,7 +1,7 @@
 
-##########################
-# Template language file #
-##########################
+# Brazilian Portuguese translation of homedecor
+# Last update: 2013/11/10
+# Last translator: Aracnus <frederico@teia.bio.br>
 
 ### Special strings ###
 
